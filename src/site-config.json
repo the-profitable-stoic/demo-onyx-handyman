@@ -1,0 +1,560 @@
+{
+  "business": {
+    "name": "Onyx Handyman",
+    "phone": "555-han-r93",
+    "category": "handyman",
+    "city": "Kansas City",
+    "state": "MO"
+  },
+  "design": {
+    "preset": {
+      "id": "handyman-dark-premium",
+      "categoryGroup": "handyman",
+      "name": "Dark Premium",
+      "recipeFile": "handyman/dark-premium.astro",
+      "colors": {
+        "primary": "#FB923C",
+        "primaryDark": "#c97530",
+        "primaryLight": "#fdd3b1",
+        "secondary": "#2A2A2A",
+        "accent": "#fca259",
+        "background": "#1A1A1A",
+        "backgroundAlt": "#111111",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5",
+        "textLight": "#A0A0A0",
+        "textOnDark": "#FFFFFF",
+        "border": "#3A3A3A"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "glow"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "dark",
+          "surface",
+          "dark",
+          "surface",
+          "dark"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "handyman/dark-premium"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Trusted Handyman Services in Kansas City",
+      "heroSubline": "From Brookside bungalows to Northland new builds, we keep Kansas City homes in top shape. Local expertise for every repair and renovation.",
+      "aboutTitle": "Why Choose Onyx Handyman",
+      "aboutText": [
+        "Founded in 2012, Onyx Handyman began with a simple mission: to provide reliable, quality repairs for Kansas City homeowners. What started as one truck and a toolbox has grown into a trusted local team serving the entire metro.",
+        "We approach every job with Midwest work ethic and craftsmanship. Whether it's fixing a squeaky porch in Waldo or reinforcing a Northland deck against tornado winds, we treat your home like our own.",
+        "As Kansas Citians ourselves, we're proud to support local schools and youth sports teams. When we're not repairing homes, you'll find us cheering on the Chiefs or exploring the River Market."
+      ],
+      "valueProps": [
+        {
+          "title": "Local Know-How",
+          "description": "We understand Kansas City's unique homes and weather challenges inside out."
+        },
+        {
+          "title": "No Job Too Small",
+          "description": "From leaky faucets to full basement waterproofing, we handle it all."
+        },
+        {
+          "title": "Reliable Scheduling",
+          "description": "We show up when promised - no ghosting after ice storms or during busy seasons."
+        },
+        {
+          "title": "Honest Assessments",
+          "description": "We'll tell you straight if a repair can wait or needs immediate attention."
+        }
+      ],
+      "ctaHeadline": "Ready for Stress-Free Home Repairs?",
+      "ctaSubline": "Call 555-han-r93 today for same-week service in Kansas City and surrounding areas."
+    },
+    "services": [
+      {
+        "slug": "foundation-repair",
+        "name": "Foundation Repair",
+        "shortDescription": "Expert solutions for Kansas City's shifting clay soils and freeze-thaw damage.",
+        "description": "Kansas City's clay soil and dramatic temperature swings wreak havoc on home foundations. We specialize in diagnosing and repairing the cracks, settling, and moisture issues common in local homes.\n\nOur team starts with a thorough inspection of your foundation, looking for telltale signs like sticking doors or uneven floors. For minor issues, we may recommend simple solutions like proper grading or downspout extensions. More serious cases might require hydraulic piers or wall stabilization.\n\nWe've worked on everything from Brookside's historic brick foundations to Northland's newer poured concrete slabs. Every repair comes with a written assessment and maintenance recommendations to prevent future problems.",
+        "process": [
+          "Step 1: Comprehensive foundation inspection inside and out",
+          "Step 2: Detailed explanation of issues with photos and repair options",
+          "Step 3: Precise repair work using appropriate methods for your home type",
+          "Step 4: Final walkthrough with maintenance recommendations"
+        ],
+        "benefits": [
+          "Prevents costly structural damage",
+          "Reduces moisture and pest entry points",
+          "Improves home value and safety",
+          "Tailored solutions for KC soil conditions"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if my foundation problems are serious?",
+            "answer": "Horizontal cracks wider than 1/4 inch or doors that won't close indicate significant movement. We'll assess whether it's normal settling or requires immediate attention."
+          },
+          {
+            "question": "Will repairs prevent future foundation issues?",
+            "answer": "While we can't stop all movement in our expansive soils, proper repairs and maintenance dramatically reduce future problems."
+          }
+        ]
+      },
+      {
+        "slug": "deck-repair",
+        "name": "Deck Repair",
+        "shortDescription": "Safe, sturdy deck solutions built for Kansas City's extreme weather.",
+        "description": "Midwest weather takes a toll on outdoor structures. We rebuild and repair decks throughout the KC metro, focusing on safety and longevity.\n\nFrom replacing rotted joists in Waldo's older wood decks to reinforcing Northland composite decks against tornado winds, we've handled every scenario. Our team checks for loose railings, unstable footings, and hidden rot - common issues after our humid summers and icy winters.\n\nWe use materials suited to our climate, like pressure-treated lumber with proper sealing and corrosion-resistant fasteners. For complete rebuilds, we'll help you choose low-maintenance options that withstand temperature extremes without constant upkeep.",
+        "process": [
+          "Step 1: Structural safety inspection of all deck components",
+          "Step 2: Removal of damaged materials with minimal disruption",
+          "Step 3: Precision rebuilding using weather-resistant materials",
+          "Step 4: Final safety check and maintenance tips"
+        ],
+        "benefits": [
+          "Eliminates safety hazards",
+          "Extends deck lifespan",
+          "Weather-appropriate materials",
+          "Preserves outdoor living space"
+        ],
+        "faq": [
+          {
+            "question": "How often should decks be inspected in our climate?",
+            "answer": "We recommend annual inspections after winter thaw to catch any freeze damage early, plus checks after severe storms."
+          }
+        ]
+      },
+      {
+        "slug": "window-repair",
+        "name": "Window Repair",
+        "shortDescription": "Energy-efficient solutions for Kansas City's historic and modern windows.",
+        "description": "Whether you're preserving original windows in a Brookside Tudor or upgrading a Lee's Summit subdivision home, we restore functionality while improving efficiency.\n\nKansas City's temperature extremes make proper window operation essential. We repair stuck sashes, replace broken seals, and install weatherstripping to combat drafts. For older homes, we carefully restore original wood windows using techniques that maintain historic character while improving performance.\n\nOur team can also help with storm window installation and screen repairs before mosquito season hits. We'll recommend cost-effective solutions that make sense for your home's age and style.",
+        "process": [
+          "Step 1: Assessment of all window operation and sealing issues",
+          "Step 2: Careful disassembly of problematic components",
+          "Step 3: Precision repairs using appropriate period-correct methods",
+          "Step 4: Testing operation and insulation improvements"
+        ],
+        "benefits": [
+          "Reduces energy bills",
+          "Preserves historic character",
+          "Improves home comfort",
+          "Prevents moisture damage"
+        ],
+        "faq": [
+          {
+            "question": "Should I repair or replace my older windows?",
+            "answer": "Original wood windows often just need proper restoration. We'll advise when replacement makes more sense for your situation."
+          }
+        ]
+      },
+      {
+        "slug": "drywall-repair",
+        "name": "Drywall Repair",
+        "shortDescription": "Seamless fixes for everything from settling cracks to storm damage.",
+        "description": "Kansas City homes develop drywall issues from foundation movement, humidity changes, and accidental damage. Our craftsmen make repairs disappear completely.\n\nWe match textures perfectly, whether it's the orange peel in your Overland Park ranch or the smooth finish of a modern loft. For water stains from roof leaks or plumbing issues, we treat the underlying cause before repairing the visible damage.\n\nOur team handles everything from small nail pops to complete ceiling replacements after storm damage. We minimize dust and disruption, using professional techniques that leave your walls looking factory-fresh.",
+        "process": [
+          "Step 1: Damage assessment and cause identification",
+          "Step 2: Precision cutting and preparation of repair area",
+          "Step 3: Layered application and texturing to match existing surfaces",
+          "Step 4: Final sanding and paint-ready finish"
+        ],
+        "benefits": [
+          "Restores visual appeal",
+          "Addresses underlying causes",
+          "Professional texture matching",
+          "Minimizes household disruption"
+        ],
+        "faq": [
+          {
+            "question": "How long do drywall repairs take to dry in our humidity?",
+            "answer": "We schedule work considering local weather conditions and use quick-setting compounds when appropriate to minimize delays."
+          }
+        ]
+      },
+      {
+        "slug": "bathroom-updates",
+        "name": "Bathroom Updates",
+        "shortDescription": "Functional, stylish upgrades for Kansas City homes of any era.",
+        "description": "From clawfoot tub restorations in Westport to modern shower installations in Olathe, we bring bathrooms into the 21st century while respecting your home's character.\n\nWe specialize in updates that improve daily life without unnecessary demolition. This might mean reconfiguring a cramped 1970s bathroom layout or adding storage to a charming but impractical historic bath. Our team handles tile work, fixture installation, and accessibility modifications with equal care.\n\nFor older homes, we preserve original features when possible while discreetly updating plumbing and electrical systems. We'll help you choose materials that stand up to Midwest humidity without constant maintenance.",
+        "process": [
+          "Step 1: Consultation about your needs and budget",
+          "Step 2: Careful demolition preserving reusable materials",
+          "Step 3: Professional installation of new components",
+          "Step 4: Final cleanup and walkthrough"
+        ],
+        "benefits": [
+          "Improves functionality",
+          "Increases home value",
+          "Quality materials installation",
+          "Respects home's architectural style"
+        ],
+        "faq": [
+          {
+            "question": "What small updates make the biggest impact?",
+            "Answer": "New lighting, mirrored medicine cabinets, and proper ventilation often transform bathrooms without major construction."
+          }
+        ]
+      },
+      {
+        "slug": "kitchen-refreshes",
+        "name": "Kitchen Refreshes",
+        "shortDescription": "Practical improvements for Kansas City's busy home chefs.",
+        "description": "Midwestern kitchens need to be as hardworking as the people using them. We update spaces to be more functional without full remodels.\n\nCommon projects include adding pantry storage in ranch homes, installing durable backsplashes that withstand cooking splatters, and improving lighting over work areas. We'll help you choose materials that balance beauty with easy maintenance - crucial for busy families.\n\nFor historic homes, we're experts at discreetly integrating modern conveniences while preserving original charm. This might mean custom cabinetry that matches existing millwork or finding tile that complements a home's era.",
+        "process": [
+          "Step 1: Assessment of workflow pain points",
+          "Step 2: Careful installation of new components",
+          "Step 3: Quality checks on all functional elements",
+          "Step 4: Final cleanup and client orientation"
+        ],
+        "benefits": [
+          "Enhances meal prep efficiency",
+          "Adds storage without expanding footprint",
+          "Improves resale value",
+          "Maintains architectural integrity"
+        ],
+        "faq": [
+          {
+            "question": "Can you match my existing cabinets for additions?",
+            "Answer": "We work with local craftsmen who can replicate most styles and finishes for seamless expansions."
+          }
+        ]
+      },
+      {
+        "slug": "exterior-maintenance",
+        "name": "Exterior Maintenance",
+        "shortDescription": "Protect your Kansas City home from our harsh seasons.",
+        "description": "Preventative care saves Kansas City homeowners from costly repairs down the line. Our seasonal maintenance keeps your exterior in top shape.\n\nWe address issues specific to our climate - cleaning gutters before ice storms, checking siding after hail, and inspecting roofs following high winds. For older homes, we specialize in historic-appropriate repairs like tuckpointing brick or repairing wood soffits.\n\nOur team can also handle exterior painting, door adjustments, and minor masonry work. We'll create a maintenance plan tailored to your home's age, materials, and exposure to the elements.",
+        "process": [
+          "Step 1: Comprehensive exterior inspection",
+          "Step 2: Identification of immediate and preventative needs",
+          "Step 3: Professional repairs using appropriate materials",
+          "Step 4: Maintenance plan creation"
+        ],
+        "benefits": [
+          "Prevents weather damage",
+          "Extends home exterior lifespan",
+          "Preserves curb appeal",
+          "Identifies small issues before they become big problems"
+        ],
+        "faq": [
+          {
+            "question": "How often should brick homes be tuckpointed?",
+            "Answer": "Most KC brick homes need inspection every 3-5 years, with repairs as needed depending on exposure and original mortar quality."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Martha T.",
+        "rating": 5,
+        "service": "Foundation Repair",
+        "text": "After noticing cracks in our Brookside bungalow's basement walls, Onyx diagnosed the issue as typical clay soil movement. Their team installed drainage solutions and stabilized the worst areas without pushing unnecessary work. The basement stays dry even during heavy spring rains now.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "James R.",
+        "rating": 5,
+        "service": "Deck Repair",
+        "text": "Our Northland deck was wobbling dangerously after last winter's ice storms. Onyx rebuilt the support posts with heavier footings and reinforced all the railings. They even matched the existing composite decking perfectly. Feels brand new but at half the cost of replacement.",
+        "date": "2025-04-22"
+      },
+      {
+        "name": "Lisa W.",
+        "rating": 5,
+        "service": "Window Repair",
+        "text": "The original 1930s windows in our Waldo home were painted shut. Onyx carefully restored them to working order while preserving the wavy glass. Our heating bill dropped 15% this winter thanks to their weatherstripping work.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "Carlos M.",
+        "rating": 5,
+        "service": "Drywall Repair",
+        "text": "A plumbing leak ruined our kitchen ceiling right before Thanksgiving. Onyx had it repaired, textured, and ready for paint in two days - you'd never know there was damage. Their crew cleaned up meticulously every night.",
+        "date": "2024-11-20"
+      },
+      {
+        "name": "Sarah K.",
+        "rating": 5,
+        "service": "Bathroom Updates",
+        "text": "Onyx transformed our cramped 1970s bathroom in Lee's Summit into a functional modern space without changing the footprint. The new walk-in shower and floating vanity make it feel twice as big. They finished on schedule despite discovering old plumbing issues.",
+        "date": "2025-02-05"
+      },
+      {
+        "name": "David P.",
+        "rating": 5,
+        "service": "Exterior Maintenance",
+        "text": "Their seasonal maintenance package keeps our Overland Park home looking sharp year-round. This spring they caught deteriorating trim before it caused water damage. Always punctual and thorough.",
+        "date": "2025-05-18"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Kansas City Handyman Services | Onyx Handyman",
+        "description": "Trusted local handyman serving Kansas City MO with foundation repairs, deck fixes, and home maintenance tailored to our Midwest climate."
+      },
+      "about": {
+        "title": "About Our Kansas City Handyman Team",
+        "description": "Learn why Kansas City homeowners trust Onyx Handyman for reliable repairs since 2012. Local expertise for local homes."
+      },
+      "services": {
+        "title": "Handyman Services in Kansas City MO",
+        "description": "Complete home repair services for Kansas City area homes. Foundation, deck, window repairs and more tailored to our climate."
+      },
+      "contact": {
+        "title": "Contact Onyx Handyman in Kansas City",
+        "description": "Schedule handyman services in Kansas City MO. Same-week availability for urgent repairs in the metro area."
+      },
+      "reviews": {
+        "title": "Kansas City Handyman Reviews",
+        "description": "See what Kansas City homeowners say about Onyx Handyman's foundation repairs, deck work, and home maintenance services."
+      },
+      "service-areas": {
+        "title": "Kansas City Handyman Service Areas",
+        "description": "Serving Overland Park, Olathe, Lee's Summit and all Kansas City MO with quality handyman services since 2012."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Overland Park",
+        "slug": "overland-park-mo",
+        "state": "MO",
+        "content": "Onyx Handyman is proud to serve the homeowners of Overland Park, MO, a bustling suburban community with a population of around 197,000. Many homes here were built between the 1970s and 1990s, requiring regular maintenance and updates to keep them in top condition. Our team specializes in addressing the wear and tear common in these older homes, from roofing repairs to plumbing fixes. With cold winters and frequent ice storms, Overland Park residents often face weather-related home issues, and we’re here to help with emergency repairs and preventative maintenance.",
+        "localContext": "Overland Park features well-established suburbs with a mix of mid-century and modern homes, often requiring upkeep due to harsh winter conditions.",
+        "nearbyAreas": [
+          "Leawood",
+          "Prairie Village",
+          "Lenexa"
+        ]
+      },
+      {
+        "city": "Olathe",
+        "slug": "olathe-mo",
+        "state": "MO",
+        "content": "Onyx Handyman provides top-quality handyman services to Olathe, MO, a family-friendly city with a population of approximately 145,000. Many neighborhoods here were developed between the 1980s and 2000s, offering a mix of traditional and contemporary homes. Our team is skilled in everything from drywall repairs to deck maintenance, ensuring your home stays safe and functional. The cold winters and ice storms in Olathe can lead to issues like frozen pipes or damaged gutters, and we’re ready to tackle these challenges with prompt, reliable service.",
+        "localContext": "Olathe is known for its newer family-oriented developments, where homes often need maintenance to withstand icy winter conditions.",
+        "nearbyAreas": [
+          "Gardner",
+          "Spring Hill",
+          "De Soto"
+        ]
+      },
+      {
+        "city": "Lee's Summit",
+        "slug": "lee-s-summit-mo",
+        "state": "MO",
+        "content": "Residents of Lee's Summit, MO, trust Onyx Handyman for all their home repair and maintenance needs. With a population of about 101,000, this community is filled with family homes built primarily in the 1970s to 1990s. Our team is experienced in handling common issues in these older properties, such as electrical updates, window replacements, and siding repairs. The cold winters and ice storms in Lee's Summit can be tough on homes, but our emergency services ensure you’re never left stranded when weather-related damage occurs.",
+        "localContext": "Lee's Summit boasts charming, well-established neighborhoods where homes often need repairs due to aging infrastructure and harsh winters.",
+        "nearbyAreas": [
+          "Independence",
+          "Raytown",
+          "Blue Springs"
+        ]
+      },
+      {
+        "city": "Independence",
+        "slug": "independence-mo",
+        "state": "MO",
+        "content": "Onyx Handyman is dedicated to serving the residents of Independence, MO, a historic city with a mix of older and newer homes. As one of the largest suburbs in the Kansas City metro area, Independence has a diverse range of housing styles, many of which require regular upkeep. Our team excels at tackling everything from minor repairs to major renovations, ensuring your home remains comfortable and safe. The cold winters here bring ice storms that can damage roofs and gutters, but our prompt repair services help homeowners stay ahead of the weather.",
+        "localContext": "Independence features a blend of historic and modern homes, often needing maintenance due to aging structures and winter weather challenges.",
+        "nearbyAreas": [
+          "Lee's Summit",
+          "Blue Springs",
+          "Sugar Creek"
+        ]
+      },
+      {
+        "city": "Blue Springs",
+        "slug": "blue-springs-mo",
+        "state": "MO",
+        "content": "Blue Springs, MO, homeowners rely on Onyx Handyman for dependable home maintenance and repair services. This growing community is filled with family homes, many built in the 1980s and 1990s, that require regular attention to stay in great shape. From fixing leaky faucets to repairing storm-damaged siding, our team handles it all with professionalism and care. The cold winters and ice storms in Blue Springs can be harsh, but our emergency services ensure your home is protected year-round.",
+        "localContext": "Blue Springs offers a mix of suburban and rural living, with homes often needing updates to withstand freezing temperatures and ice storms.",
+        "nearbyAreas": [
+          "Grain Valley",
+          "Independence",
+          "Lee's Summit"
+        ]
+      },
+      {
+        "city": "Lenexa",
+        "slug": "lenexa-mo",
+        "state": "MO",
+        "content": "Onyx Handyman is proud to serve Lenexa, MO, a vibrant city known for its blend of residential and commercial spaces. With many homes built in the 1980s and 1990s, residents often need help with maintenance and modernization projects. Our skilled team can handle everything from kitchen remodels to exterior repairs, ensuring your home meets your needs. Lenexa’s cold winters and occasional ice storms can lead to issues like frozen pipes or damaged roofs, but we’re here to provide fast, reliable solutions.",
+        "localContext": "Lenexa’s mix of older and newer homes requires consistent upkeep, especially during icy winters that strain roofing and plumbing systems.",
+        "nearbyAreas": [
+          "Shawnee",
+          "Overland Park",
+          "Olathe"
+        ]
+      },
+      {
+        "city": "Raytown",
+        "slug": "raytown-mo",
+        "state": "MO",
+        "content": "Raytown, MO, homeowners trust Onyx Handyman for expert home repair and maintenance services. This close-knit community features many homes built in the mid-20th century, which often need updates to remain safe and efficient. Our team specializes in addressing common issues in older homes, such as outdated electrical systems and worn-out flooring. With cold winters and ice storms posing risks to roofs and gutters, our preventative and repair services help keep Raytown homes in top condition.",
+        "localContext": "Raytown’s mid-century homes require regular maintenance to combat the wear and tear of harsh winters and aging infrastructure.",
+        "nearbyAreas": [
+          "Kansas City",
+          "Independence",
+          "Lee's Summit"
+        ]
+      },
+      {
+        "city": "Liberty",
+        "slug": "liberty-mo",
+        "state": "MO",
+        "content": "Onyx Handyman is proud to serve Liberty, MO, a charming city with a mix of historic and modern homes. Many properties here date back several decades, requiring specialized care to maintain their integrity. Our team is skilled in preserving the character of older homes while updating them for modern living. Liberty’s cold winters and ice storms can cause damage to roofs, gutters, and plumbing, but our emergency repair services ensure your home stays protected.",
+        "localContext": "Liberty’s blend of historic and contemporary homes demands attentive maintenance, particularly during icy winters that threaten aging structures.",
+        "nearbyAreas": [
+          "Gladstone",
+          "Kearney",
+          "Smithville"
+        ]
+      },
+      {
+        "city": "Gladstone",
+        "slug": "gladstone-mo",
+        "state": "MO",
+        "content": "Gladstone, MO, residents count on Onyx Handyman for reliable home repair and maintenance services. This family-friendly community features many homes built in the 1960s to 1980s, which often need updates to stay functional and comfortable. Our team handles everything from minor fixes to major renovations, ensuring your home meets your needs. With cold winters and ice storms common in Gladstone, our emergency services help homeowners address weather-related damage quickly and efficiently.",
+        "localContext": "Gladstone’s mid-century homes require regular upkeep to combat the effects of freezing temperatures and aging materials.",
+        "nearbyAreas": [
+          "Liberty",
+          "Kansas City",
+          "North Kansas City"
+        ]
+      },
+      {
+        "city": "Grandview",
+        "slug": "grandview-mo",
+        "state": "MO",
+        "content": "Grandview, MO, homeowners trust Onyx Handyman for expert home maintenance and repair solutions. This tight-knit community features a variety of homes, many built in the mid-20th century, that benefit from regular upkeep. Our team is experienced in addressing common issues like outdated plumbing, worn-out siding, and drafty windows. Grandview’s cold winters and ice storms can take a toll on homes, but our preventative and repair services help keep properties safe and comfortable.",
+        "localContext": "Grandview’s older homes need consistent maintenance to withstand freezing winters and the challenges of aging infrastructure.",
+        "nearbyAreas": [
+          "Belton",
+          "Raymore",
+          "Kansas City"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "foundation-repair": "/images/service-foundation-repair.webp",
+      "deck-repair": "/images/service-deck-repair.webp",
+      "window-repair": "/images/service-window-repair.webp",
+      "drywall-repair": "/images/service-drywall-repair.webp",
+      "bathroom-updates": "/images/service-bathroom-updates.webp",
+      "kitchen-refreshes": "/images/service-kitchen-refreshes.webp",
+      "exterior-maintenance": "/images/service-exterior-maintenance.webp"
+    },
+    "servicesResponsive": {
+      "foundation-repair": {
+        "src": "/images/service-foundation-repair.webp",
+        "srcset": "/images/service-foundation-repair-400w.webp 400w, /images/service-foundation-repair-800w.webp 800w, /images/service-foundation-repair-1200w.webp 1200w, /images/service-foundation-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "deck-repair": {
+        "src": "/images/service-deck-repair.webp",
+        "srcset": "/images/service-deck-repair-400w.webp 400w, /images/service-deck-repair-800w.webp 800w, /images/service-deck-repair-1200w.webp 1200w, /images/service-deck-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "window-repair": {
+        "src": "/images/service-window-repair.webp",
+        "srcset": "/images/service-window-repair-400w.webp 400w, /images/service-window-repair-800w.webp 800w, /images/service-window-repair-1200w.webp 1200w, /images/service-window-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "drywall-repair": {
+        "src": "/images/service-drywall-repair.webp",
+        "srcset": "/images/service-drywall-repair-400w.webp 400w, /images/service-drywall-repair-800w.webp 800w, /images/service-drywall-repair-1200w.webp 1200w, /images/service-drywall-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "bathroom-updates": {
+        "src": "/images/service-bathroom-updates.webp",
+        "srcset": "/images/service-bathroom-updates-400w.webp 400w, /images/service-bathroom-updates-800w.webp 800w, /images/service-bathroom-updates-1200w.webp 1200w, /images/service-bathroom-updates.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "kitchen-refreshes": {
+        "src": "/images/service-kitchen-refreshes.webp",
+        "srcset": "/images/service-kitchen-refreshes-400w.webp 400w, /images/service-kitchen-refreshes-800w.webp 800w, /images/service-kitchen-refreshes-1200w.webp 1200w, /images/service-kitchen-refreshes.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "exterior-maintenance": {
+        "src": "/images/service-exterior-maintenance.webp",
+        "srcset": "/images/service-exterior-maintenance-400w.webp 400w, /images/service-exterior-maintenance-800w.webp 800w, /images/service-exterior-maintenance-1200w.webp 1200w, /images/service-exterior-maintenance.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
